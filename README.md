@@ -7,6 +7,7 @@ I don't if I'll ever get around to these, but here's some improvements I'd make 
 - Make it look more like an actual Pokemon card.
 - Set fixed widths and height. Some images are larger than others.
 - Make the moveset into a table with a left-align for the move name, and a right-align for its power.
+- Filter out moves that have a power of `null`.
 #### Performance
 - Bundle all requests so that they happen in sync. It's especially jarring if you load too many cards too quickly.
 - Cache requests. This could be a good learning exercise for learning `LocalStorage`.
